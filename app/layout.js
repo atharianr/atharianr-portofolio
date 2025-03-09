@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "atharianr.dev",
     images: [
       {
-        url: "https://atharianr.dev/og-image.jpg", // ganti ke OG image kamu, need to add later
+        url: "https://atharianr.dev/profile_pic.png", // ganti ke OG image kamu, need to add later
         width: 1200,
         height: 630,
         alt: "Atharian Rahmadani Portfolio - Mobile Engineer & AI Specialist"
