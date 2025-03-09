@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://atharianr.dev
+
+# Sitemaps
+Sitemap: https://atharianr.dev/sitemap.xml
