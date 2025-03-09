@@ -1,4 +1,4 @@
-import about_profile_pic from "./about_profile_pic.png"
+import about_profile_pic from "../public/profile_pic.png"
 import { FaBriefcase, FaBuildingColumns, FaCode } from "react-icons/fa6"
 
 export const assets = {
