@@ -7,15 +7,16 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "Atharian Rahmadani | Android Developer, iOS Developer, Mobile Developer, AI Engineer",
+  title: "Atharian Rahmadani | Android Developer, iOS Developer, Mobile Engineer, Software Engineer, AI Engineer",
   description:
-    "Atharian Rahmadani is a Software Developer based in Surabaya, Indonesia. Specialized in Android Development, iOS Development, and Artificial Intelligence. Currently working at Axiata Digital Labs.",
+    "Atharian Rahmadani is a Software Developer based in Surabaya, Indonesia. Specialized in Android Development, iOS Development, Mobile Engineer, Software Engineer, and Artificial Intelligence. Currently working at Axiata Digital Labs.",
   keywords: [
     "Atharian Rahmadani",
     "atharianr",
     "Android Developer",
     "iOS Developer",
     "Mobile Engineer",
+    "Software Engineer",
     "AI Engineer",
     "Axiata Digital Labs",
     "Surabaya Developer",
@@ -25,9 +26,9 @@ export const metadata = {
   creator: "Atharian Rahmadani",
   metadataBase: new URL("https://atharianr.dev"),
   openGraph: {
-    title: "Atharian Rahmadani | Mobile & AI Engineer",
+    title: "Atharian Rahmadani | Android Developer, iOS Developer, Mobile Engineer, Software Engineer, & AI Engineer",
     description:
-      "Explore the portfolio of Atharian Rahmadani, an Android & iOS Developer and AI Engineer at Axiata Digital Labs.",
+      "Explore the portfolio of Atharian Rahmadani, an Android Developer, iOS Developer, Mobile Engineer, Software Engineer, and AI Enthusiast at Axiata Digital Labs.",
     url: "https://atharianr.dev",
     siteName: "atharianr.dev",
     images: [
@@ -35,7 +36,7 @@ export const metadata = {
         url: "https://atharianr.dev/profile_pic.png", // ganti ke OG image kamu, need to add later
         width: 1200,
         height: 630,
-        alt: "Atharian Rahmadani Portfolio - Mobile Engineer & AI Specialist"
+        alt: "Atharian Rahmadani Portfolio - Android Developer, iOS Developer, Mobile Engineer, Software Engineer, and AI Enthusiast"
       }
     ],
     locale: "en_US",
@@ -60,6 +61,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        {/* Favicon & Icons */}
+        <link rel="icon" href="/atharianr_icon.svg" type="image/svg+xml" />
+        <link rel="shortcut icon" href="/atharianr_icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/atharianr_icon.svg" />
+
+        {/* Meta Theme (Optional, Good UX) */}
+        <meta name="theme-color" content="#ffffff" />
+
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
@@ -71,7 +80,7 @@ export default function RootLayout({ children }) {
               "alternateName": "atharianr",
               "url": "https://atharianr.dev",
               "image": "https://atharianr.dev/profile_pic.png",
-              "jobTitle": "Android Developer, iOS Developer, AI Engineer",
+              "jobTitle": "Android Developer, iOS Developer, Mobile Engineer, Software Engineer, AI Engineer",
               "worksFor": {
                 "@type": "Organization",
                 "name": "Axiata Digital Labs"
@@ -82,7 +91,7 @@ export default function RootLayout({ children }) {
                 "https://instagram.com/atharianr"
               ],
               "description":
-                "Atharian Rahmadani is an Android Developer, iOS Developer, and AI Engineer currently working at Axiata Digital Labs."
+                "Atharian Rahmadani is an Android Developer, iOS Developer, Mobile Engineer, Software Engineer, and AI Enthusiast currently working at Axiata Digital Labs."
             })
           }}
         />
