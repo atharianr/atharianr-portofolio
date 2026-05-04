@@ -69,4 +69,37 @@ export const workData = [
         description: 'Android',
         bgImage: '/portofolio/porto_siap.jpg',
     },
-]
+];
+
+export const testimonialData = [
+    {
+        quote: "Atharian helped us build a telemedicine app from scratch, including backend integration and real-time features. The app runs smoothly and is ready for production use.",
+        name: "Product Owner",
+        role: "HealthTech Project",
+        date: "Oct 2025"
+    },
+    {
+        quote: "The Android app Atharian developed for our agriculture platform (Tandur) is stable and user-friendly. Farmers can easily use it without technical difficulties.",
+        name: "Project Manager",
+        role: "AgriTech Startup",
+        date: "Dec 2025"
+    },
+    {
+        quote: "Atharian delivered both Android and iOS solutions for our platform. The code quality is clean, and the performance optimization significantly improved our app experience.",
+        name: "Tech Lead",
+        role: "Watchdis & GameON",
+        date: "Jan 2026"
+    },
+    {
+        quote: "We implemented an OCR-based verification feature with Atharian, and the accuracy and speed exceeded our expectations. Integration was smooth and reliable.",
+        name: "Engineering Manager",
+        role: "SiDOMPUL - XL Axiata",
+        date: "Feb 2026"
+    },
+    {
+        quote: "Atharian is strong in both frontend and backend. From UI/UX to API integration, everything was handled professionally and delivered on time.",
+        name: "Startup Founder",
+        role: "Multi-platform Project",
+        date: "Mar 2026"
+    }
+];
