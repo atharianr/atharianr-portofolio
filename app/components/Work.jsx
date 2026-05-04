@@ -13,7 +13,7 @@ const Work = () => {
 
             <ul className='grid grid-cols-auto gap-6 mt-12'>
                 {workData.slice(0, 8).map((work, index) => (
-                    <WorkInfoCard bgImage={work.bgImage} title={work.title} description={work.description} key={index} />
+                    <WorkInfoCard id={index} bgImage={work.bgImage} title={work.title} description={work.description} key={index} />
                 ))}
             </ul>
 

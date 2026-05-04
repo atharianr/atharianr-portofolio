@@ -27,46 +27,46 @@ export const workData = [
     {
         title: 'Telemedicine',
         description: 'UI/UX, Android, Backend',
-        bgImage: './portofolio/porto_telemedicine.jpg',
+        bgImage: '/portofolio/porto_telemedicine.jpg',
     },
     {
         title: 'Tandur',
         description: 'UI/UX, Android, Backend',
-        bgImage: './portofolio/porto_tandur.jpg',
+        bgImage: '/portofolio/porto_tandur.jpg',
     },
     {
         title: 'Watchdis & GameON',
         description: 'UI/UX, Android, iOS',
-        bgImage: './portofolio/porto_watchdis_gameon.jpg',
+        bgImage: '/portofolio/porto_watchdis_gameon.jpg',
     },
     {
         title: 'Direc',
         description: 'UI/UX, Android, Backend',
-        bgImage: './portofolio/porto_direc.jpg',
+        bgImage: '/portofolio/porto_direc.jpg',
     },
     {
         title: 'KRESNA',
         description: 'Android (Edu Games)',
-        bgImage: './portofolio/porto_kresna.jpg',
+        bgImage: '/portofolio/porto_kresna.jpg',
     },
     {
         title: 'SIAP',
         description: 'UI/UX, Android (Flutter)',
-        bgImage: './portofolio/porto_siap.jpg',
+        bgImage: '/portofolio/porto_siap.jpg',
     },
     {
         title: 'ValorantPEEK',
         description: 'UI/UX (Design)',
-        bgImage: './portofolio/porto_valorantpeek.jpg',
+        bgImage: '/portofolio/porto_valorantpeek.jpg',
     },
     {
         title: 'ViuiT Driver & Merchant',
         description: 'Android',
-        bgImage: './portofolio/porto_siap.jpg',
+        bgImage: '/portofolio/porto_siap.jpg',
     },
     {
         title: 'SiDOMPUL',
         description: 'Android',
-        bgImage: './portofolio/porto_siap.jpg',
+        bgImage: '/portofolio/porto_siap.jpg',
     },
 ]
