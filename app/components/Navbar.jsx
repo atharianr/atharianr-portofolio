@@ -50,14 +50,10 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={`flex w-full fixed justify-between py-5 ${isScroll ? 'bg-white shadow-sm bg-opacity-50 backdrop-blur-lg z-50' : ''}`}>
+            <nav className={`flex w-full fixed justify-between py-5 z-50 ${isScroll ? 'bg-white/50 shadow-sm backdrop-blur-lg' : ''}`}>
                 <button className="mx-8 md:hidden" onClick={openMenu}>
                     <FaBars />
                 </button>
-
-                {/* <a href="#top" className="flex font-bold items-center mx-8">
-                    atharianr<span className='text-red-500'>.</span>
-                </a> */}
 
                 <div className='flex justify-center group mx-8'>
                     <a href="#top" className="flex font-bold relative">
@@ -69,32 +65,24 @@ const Navbar = () => {
                 </div>
 
                 <ul className="hidden justify-center md:flex items-center gap-6 lg:gap-8 px-12">
-                    <li>
-                        <a href="#top" className={`${activeSection === 'top' ? 'font-bold' : ''}`}>Home</a>
-                    </li>
-                    <li>
-                        <a href="#about" className={`${activeSection === 'about' ? 'font-bold' : ''}`}>About</a>
-                    </li>
-                    <li>
-                        <a href="#work" className={`${activeSection === 'work' ? 'font-bold' : ''}`}>Works</a>
-                    </li>
-                    <li>
-                        <a href="#contact" className={`${activeSection === 'contact' ? 'font-bold' : ''}`}>Contact</a>
-                    </li>
-                </ul>
-
-                {/* Mobile menu */}
-                <ul
-                    ref={sideMenuRef} className="flex flex-col bg-gray-50 fixed top-0 bottom-0 w-64 z-50 md:hidden h-screen px-8 py-20 gap-6 transition duration-500 -translate-x-64">
-                    <button className="absolute right-6 top-6" onClick={closeMenu}>
-                        <IoClose />
-                    </button>
-                    <li><a href="#top">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#top" className={`${activeSection === 'top' ? 'font-bold' : ''}`}>Home</a></li>
+                    <li><a href="#about" className={`${activeSection === 'about' ? 'font-bold' : ''}`}>About</a></li>
+                    <li><a href="#work" className={`${activeSection === 'work' ? 'font-bold' : ''}`}>Works</a></li>
+                    <li><a href="#contact" className={`${activeSection === 'contact' ? 'font-bold' : ''}`}>Contact</a></li>
                 </ul>
             </nav>
+
+            {/* Mobile menu — di luar <nav> supaya blur tidak terpengaruh parent */}
+            <ul
+                ref={sideMenuRef} className="flex flex-col bg-white/50 backdrop-blur-lg fixed top-0 bottom-0 w-64 z-50 md:hidden h-screen px-8 py-20 gap-6 transition duration-500 -translate-x-64">
+                <button className="absolute right-6 top-6" onClick={closeMenu}>
+                    <IoClose />
+                </button>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </>
     );
 };
