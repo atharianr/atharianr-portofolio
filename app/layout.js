@@ -20,20 +20,33 @@ export const metadata = {
     "AI Engineer",
     "Axiata Digital Labs",
     "Surabaya Developer",
-    "Software Engineer Indonesia"
+    "Software Engineer Indonesia",
+    "Software Developer",
+    "Best Software Developer",
+    "Top Software Developer",
+    "Freelance Software Developer",
+    "Hire Software Engineer",
+    "Top Developer Indonesia",
+    "Best Software Engineer in Indonesia"
   ],
   authors: [{ name: "Atharian Rahmadani" }],
   creator: "Atharian Rahmadani",
-  metadataBase: new URL("https://atharianr.dev"),
+  metadataBase: new URL("https://atharianr.com"),
+  alternates: {
+    canonical: "https://atharianr.com",
+  },
+  verification: {
+    google: "AUuvGyfmJA1I14P4KqddZY3oTzZbhLVNEB2XBMcak_g",
+  },
   openGraph: {
     title: "Atharian Rahmadani | Android Developer, iOS Developer, Mobile Engineer, Software Engineer, & AI Engineer",
     description:
       "Explore the portfolio of Atharian Rahmadani, an Android Developer, iOS Developer, Mobile Engineer, Software Engineer, and AI Enthusiast at Axiata Digital Labs.",
-    url: "https://atharianr.dev",
-    siteName: "atharianr.dev",
+    url: "https://atharianr.com",
+    siteName: "atharianr.com",
     images: [
       {
-        url: "https://atharianr.dev/profile_pic.png", // ganti ke OG image kamu, need to add later
+        url: "https://atharianr.com/profile_pic.png", // ganti ke OG image kamu, need to add later
         width: 1200,
         height: 630,
         alt: "Atharian Rahmadani Portfolio - Android Developer, iOS Developer, Mobile Engineer, Software Engineer, and AI Enthusiast"
@@ -41,6 +54,13 @@ export const metadata = {
     ],
     locale: "en_US",
     type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Atharian Rahmadani | Mobile Engineer & Software Engineer",
+    description: "Atharian Rahmadani is a Software Developer based in Surabaya, Indonesia. Specialized in Android Development, iOS Development, Mobile Engineer, Software Engineer, and Artificial Intelligence.",
+    creator: "@atharianr",
+    images: ["https://atharianr.com/profile_pic.png"],
   },
   icons: {
     icon: "/atharianr_icon.svg",
@@ -78,8 +98,8 @@ export default function RootLayout({ children }) {
               "@type": "Person",
               "name": "Atharian Rahmadani",
               "alternateName": "atharianr",
-              "url": "https://atharianr.dev",
-              "image": "https://atharianr.dev/profile_pic.png",
+              "url": "https://atharianr.com",
+              "image": "https://atharianr.com/profile_pic.png",
               "jobTitle": "Android Developer, iOS Developer, Mobile Engineer, Software Engineer, AI Engineer",
               "worksFor": {
                 "@type": "Organization",
