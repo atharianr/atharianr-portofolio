@@ -43,7 +43,7 @@ export const metadata = {
     description:
       "Explore the portfolio of Atharian Rahmadani, an Android Developer, iOS Developer, Mobile Engineer, Software Engineer, and AI Enthusiast at Axiata Digital Labs.",
     url: "https://atharianr.com",
-    siteName: "atharianr.com",
+    siteName: "Atharian Rahmadani | Senior Android Developer",
     images: [
       {
         url: "https://atharianr.com/profile_pic.png", // ganti ke OG image kamu, need to add later
